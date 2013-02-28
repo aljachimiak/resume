@@ -1,0 +1,522 @@
+/*--custom-styles.css--*/
+
+/* ------------------
+------- Colors ------
+.color1 { color: #010100}
+.color2 { color: #010000}
+.color3 { color: #ffe00c}
+.color4 { color: #ffdf10}
+.color5 { color: #fbdc05}
+.color6 { color: #000000}
+.color7 { color: #030000}
+.color8 { color: #e4cf34}
+.color9 { color: #665430}
+.color10 { color: #66542e}
+.color11 { color: #c4b07b}
+.color12 { color: #605245}
+.color13 { color: #c4b07d}
+.color14 { color: #c2b185}
+.color15 { color: #8f8063}
+.color16 { color: #c1ae8e}
+.color17 { color: #c0ae86}
+--------------------- */
+
+/*-------------------
+------Fonts----------
+font-family: 'Federo', sans-serif;
+font-family: 'Exo', sans-serif;
+---------------------*/
+@import url(http://fonts.googleapis.com/css?family=Exo:200italic);
+
+body {
+	background-color: #333333 !important;
+}
+
+header {
+	background-color: #F9DB04;
+  font-family: 'Federo', sans-serif;
+  font-size: 48px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	z-index: 4;
+}
+
+.accordion-heading .accordion-toggle {
+	padding: 10px 0px !important;
+}
+
+.featurette-image.pull-right {
+	margin-left: 0px !important;
+}
+
+.featurette {
+	padding: 60px 0 60px 0;
+}
+
+.footer {
+	background-color: #333333;
+	color: #dddddd;
+	font-size: .9em;
+	padding-top: 20px;
+	min-height: 300px;
+}
+.footer p {
+	margin:0;
+}
+
+.footer ul {
+		margin-left: 0px !important;
+}
+
+.footer ul li{
+	list-style: none;
+	padding: 15px 0;
+}
+
+.footer ul li i:hover{
+	color:white;
+}
+
+.footer ul li a{
+	color: #F9DB04 !important;
+	text-decoration: none !important;
+}
+
+.footer p a{
+	color: #F9DB04 !important;
+	text-decoration: none !important;
+}
+
+.footer-icon{
+	color: #F9DB04;
+	font-size: 175px;
+	padding-top: 55px;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	margin-right: .15em;
+	margin-bottom: .2em;
+	margin-left: none !important;
+}
+
+hr {
+	box-shadow:black 0.1em 0.1em 0.2em;;
+}
+
+.social-i{
+	color:white;
+}
+
+.img-move1{
+	position: relative;
+	bottom: 260px;
+}
+.img-move3{
+	position:relative;
+	bottom: 300px;
+	background-image: url('../img/black-bg.png');
+  background-repeat:repeat-x;
+  width:100%;
+  height: 300px;
+
+}
+
+.img-move2{
+	z-index: -1;
+}
+
+.row-fluid {
+	height: 100%;
+}
+
+a {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+a :hover {
+	text-decoration: none !important;
+}
+
+blockquote{
+	margin-top:10px !important;
+	margin-bottom: 10px !important;
+	border-left: none !important;
+}
+
+.accordion-inner {
+padding: 0px 15px !important;
+border-top: 0px solid #e5e5e5!important;
+}
+
+.inner {
+	max-width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	padding: 40px 0px;
+}
+
+.bg-img {
+
+background-image: url('../img/black-bg.png');
+background-repeat:repeat-x;
+background-attachment: fixed;
+background-position: 0 0;
+
+}
+
+.h2d {
+	font-family: 'Exo', sans-serif;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.accordion-group {
+	margin-bottom: 0px !important;
+	border: 0px solid #e5e5e5 !important;
+	-webkit-border-radius: 0px !important;
+}
+
+.face-container {
+	width: inherit;
+	background-color: white;
+}
+
+.pulsespace {
+	color:white;
+}
+
+.acctext{
+ display:inline-block;
+ min-width: 230px;
+ text-align: left;
+}
+
+.pitchspace {
+	color:white;
+}
+
+.pitching{
+	min-width: 20px;
+}
+
+.white{
+	background-color:white;
+	position: absolute;
+	height: 1000px;
+	width: 100%;
+	z-index: -2;
+}
+
+.copyright{
+	text-align:right;
+}
+
+.copyright-p{
+	text-align:center;
+}
+
+.home{
+	text-align:right;
+}
+
+.pitch-block-white{
+	color: black;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	 background: white;
+}
+
+.pitch-block-dark{
+	background-color: #333333;
+	color: white;
+}
+
+.bigger-inner{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top:60px;
+}
+
+.page-header {
+	padding-bottom: 9px;
+	margin: 20px 0 0px !important;
+	border-bottom: 0px solid #eeeeee !important;
+}
+
+#no-top{
+	padding-top:none !important;
+}
+
+#pitch-image{
+	margin-top:	0px !important;
+		-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+#fake-icon{
+	margin-top: -70px !important;
+}
+
+
+@media (max-width: 768px){
+	body {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.logo {
+		padding-left: 10px;
+	}
+
+  .featurette-heading {
+    font-size: 30px;
+  }
+  .featurette .lead {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  /*--- Look here if tablet is terrible --*/
+
+.featurette-image.pull-right {
+	margin-left: auto !important;
+}
+
+  .footer-icon{
+  	text-align: center;
+  	margin-left:auto !important ;
+  	margin-right: auto !important;
+  }
+  	.logo {
+		text-align:center;
+	}
+
+	.h2d {
+		text-align: center !important;
+	}
+
+	.inner{
+		text-align: center;
+	}
+
+	.inner table{
+		text-align: left;
+	}
+
+	.copyright{
+	text-align:center;
+}
+
+.home{
+	text-align:center;
+}
+
+	ul li {
+		list-style: none;
+	}
+	table {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media only screen and (device-width:768px)and (orientation:portrait) {
+	body {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+		#fake-icon{
+	margin-top: 0px !important;
+	}
+
+	.logo {
+		text-align:center;
+	}
+
+	.h2d {
+		text-align: center !important;
+	}
+
+	.inner{
+		text-align: center;
+	}
+
+	.inner table{
+		text-align: left;
+	}
+
+	.copyright{
+	text-align:center;
+}
+
+.home{
+	text-align:center;
+}
+
+	ul li {
+		list-style: none;
+	}
+	table {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+@media (max-width: 420px){
+		body {
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
+
+		.logo {
+			text-align:center;
+		}
+
+		#left-phone{
+			text-align:left !important;
+			padding-left:30px !important;
+		}
+
+		.h2d {
+			text-align: center !important;
+		}
+
+		.inner{
+			text-align: center;
+		}
+
+		.inner table{
+			text-align: left;
+		}
+
+		.copyright{
+		text-align:center;
+	}
+	
+	.home{
+	text-align:center;
+}
+
+		#top{
+		text-align:center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+		ul li {
+			list-style: none;
+		}
+		table {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	.accordion-group {
+		background-color:white;
+		margin-top:9px;
+	}
+	      #pitch {
+		background-color: white ;
+		padding: 10px 0px;
+	}
+
+	#fake-icon{
+	margin-top: 0px !important;
+	}
+
+}
+
+
+#pitch-image{
+	margin-top:	20px !important;
+}
+
+
+   /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 60%;
+        margin: 0 auto 20px;
+      }
+    }
+
+    /*@media only screen and (device-width:768px)and (orientation:portrait)*/
+
+
+    @media (max-width: 768px) {
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      	#fake-icon{
+	margin-top: 0px !important;
+	}
+
+
+    }
+
+
+
+
+
+
+
+
+
