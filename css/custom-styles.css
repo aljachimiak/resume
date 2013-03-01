@@ -1,26 +1,5 @@
 /*--custom-styles.css--*/
 
-/* ------------------
-------- Colors ------
-.color1 { color: #010100}
-.color2 { color: #010000}
-.color3 { color: #ffe00c}
-.color4 { color: #ffdf10}
-.color5 { color: #fbdc05}
-.color6 { color: #000000}
-.color7 { color: #030000}
-.color8 { color: #e4cf34}
-.color9 { color: #665430}
-.color10 { color: #66542e}
-.color11 { color: #c4b07b}
-.color12 { color: #605245}
-.color13 { color: #c4b07d}
-.color14 { color: #c2b185}
-.color15 { color: #8f8063}
-.color16 { color: #c1ae8e}
-.color17 { color: #c0ae86}
---------------------- */
-
 /*-------------------
 ------Fonts----------
 font-family: 'Federo', sans-serif;
@@ -159,12 +138,10 @@ border-top: 0px solid #e5e5e5!important;
 }
 
 .bg-img {
-
 background-image: url('../img/black-bg.png');
 background-repeat:repeat-x;
 background-attachment: fixed;
 background-position: 0 0;
-
 }
 
 .h2d {
@@ -265,7 +242,6 @@ background-position: 0 0;
 	margin-top: -70px !important;
 }
 
-
 @media (max-width: 768px){
 	body {
 		padding-left: 0px !important;
@@ -282,8 +258,6 @@ background-position: 0 0;
     font-size: 18px;
     line-height: 1.5;
   }
-
-  /*--- Look here if tablet is terrible --*/
 
 .featurette-image.pull-right {
 	margin-left: auto !important;
@@ -371,7 +345,6 @@ background-position: 0 0;
 	}
 }
 
-
 @media (max-width: 420px){
 		body {
 			padding-left: 0px !important;
@@ -436,11 +409,9 @@ background-position: 0 0;
 
 }
 
-
 #pitch-image{
 	margin-top:	20px !important;
 }
-
 
    /* Featurettes
     ------------------------- */
@@ -494,7 +465,6 @@ background-position: 0 0;
 
     /*@media only screen and (device-width:768px)and (orientation:portrait)*/
 
-
     @media (max-width: 768px) {
 
       .featurette-heading {
@@ -506,11 +476,9 @@ background-position: 0 0;
       }
 
       	#fake-icon{
-	margin-top: 0px !important;
-	}
-
-
-    }
+			margin-top: 0px !important;
+			}
+ 		}
 
 
 

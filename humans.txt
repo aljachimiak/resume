@@ -1,0 +1,21 @@
+humans.txt
+
+/* Author */
+
+Al Jachimiak
+	@M3nt_Al
+	-Hand coded HTML, CSS, and little bits of jQuery.
+
+	
+
+/* THANKS */
+	Ben Stoutenburgh - @maristgeek
+	Dave Jachimiak - @casualpro
+
+		
+
+/* SITE */
+	Language: English
+	Doctype:HTML5
+	IDE: Sublime Text, FileZilla, GIMP, Inkscape, git, Chrome
+	Components: Twitter Bootstrap, Font-Awesome, nginx
