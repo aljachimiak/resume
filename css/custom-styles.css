@@ -1,10 +1,5 @@
 /*--custom-styles.css--*/
 
-/*-------------------
-------Fonts----------
-font-family: 'Federo', sans-serif;
-font-family: 'Exo', sans-serif;
----------------------*/
 @import url(http://fonts.googleapis.com/css?family=Exo:200italic);
 
 body {
@@ -21,8 +16,19 @@ header {
 	z-index: 4;
 }
 
+.internal-link{
+	font-style: italic;
+	text-decoration: underline;
+	border-bottom: 1px dotted grey;
+
+}
+
 .accordion-heading .accordion-toggle {
 	padding: 10px 0px !important;
+}
+.icon-arrow-right{
+	position: relative;
+	right: -.6em;
 }
 
 .featurette-image.pull-right {
